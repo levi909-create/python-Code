@@ -1,0 +1,212 @@
+"""
+Main Python Application
+"""
+
+def main():
+    """Entry point for the application"""
+    print("Hello from Python!")
+    print("Your Python workspace is ready!")
+
+if __name__ == "__main__":
+    main()
+
+
+
+
+
+
+
+
+
+name = "Levi"
+print(f"Calculating BMI...for {name}")
+height = 180.34  # height in centimeters
+weight = 86  # weight in kilograms
+bmi = weight / (height / 100) ** 2
+print(f"Your BMI is: {bmi:.2f}")
+# BMI Calculation
+
+
+def calculate_bmi(weight, height):
+    """Calculate Body Mass Index (BMI)"""
+    return weight / (height / 100) ** 2 
+bmi_value = calculate_bmi(weight, height)
+print(f"Calculated BMI for {name} is: {bmi_value:.2f}")
+
+additional_info_AGE = 35
+print(f"Age of {name} is: {additional_info_AGE}")
+# Additional Information
+
+FOOD_PREFERENCE = "TACOS"
+print(f"{name}'s food preference is: {FOOD_PREFERENCE}")
+
+FAVORITE_PLACE = "MEXICO"
+print(f"{name}'s favorite place is: {FAVORITE_PLACE}")
+
+LIST_OF_HOBBIES = ["GUITAR", "EATING", "IDK", "SLEEPING"]
+print(f"{name}'s hobbies include: {', '.join(LIST_OF_HOBBIES)}")
+# BMI Calculation and Additional Information
+
+loop_count = 0
+while loop_count < 5:
+    print(f"Loop iteration: {loop_count + 1}")
+    loop_count += 1 
+# Simple Loop
+
+advanced_loop_count = 0
+while advanced_loop_count < 5:
+    print(f"Advanced Loop iteration: {advanced_loop_count + 1}")
+    advanced_loop_count += 1
+# Advanced Loop
+
+instructions_given = 1
+while instructions_given < 5:
+    print(f"Instructions given: {instructions_given + 1}")
+    instructions_given += 1
+# Instructions Loop
+
+string_manipulation = "Hello, Python World!"
+def reverse_string(s):
+    """Reverse a given string"""
+    return s[::-1]
+reversed_string = reverse_string(string_manipulation)
+print(reversed_string)
+# String Manipulation
+
+def to_uppercase(s):
+    """Convert a string to uppercase"""
+    return s.upper()    
+uppercase_string = to_uppercase(string_manipulation)
+print(uppercase_string)
+
+format_string = f"Formatted String: {string_manipulation}"
+print(format_string)    
+
+reverse_stringd = reverse_string(string_manipulation)
+print(reverse_stringd)  
+
+
+
+
+
+
+
+
+first_name = "Julie"
+last_name = "Blevins"
+
+def account_generator(first_name, last_name):
+  account_name = first_name [:3] + last_name [:3]
+  return account_name
+
+new_account = account_generator(first_name, last_name)
+print(new_account)
+
+
+
+first_name = "Reiko"
+last_name = "Matsuki"
+
+def password_generator(first_name, last_name):
+  temp_password = first_name[len(first_name)-3:] + last_name[len(last_name)-3:]
+  return temp_password
+
+temp_password = password_generator(first_name, last_name)
+
+
+print(temp_password)
+
+
+company_motto = "Copeland's Corporate Company helps you capably cope with the constant cacophony of daily life"
+
+second_to_last = company_motto [-2]
+final_word = company_motto [-4:]
+
+print(second_to_last, final_word)
+
+
+
+first_name = "Bob"
+last_name = "Daily"
+
+fixed_first_name = "R" + first_name [1:]
+
+print(fixed_first_name)
+
+fixed_last_name = "b" + last_name [1:]
+print(fixed_last_name)
+
+password = "theycallme\"crazy\""
+print(password)
+
+print("------")
+def print_each_letter(word):
+  for letter in word:
+    print(letter)
+
+favorite_color = "blue"
+print_each_letter(favorite_color)
+
+
+
+favorite_fruit = "blueberry"
+counter = 0
+for character in favorite_fruit:
+  if character == "b":
+    counter = counter + 1
+print(counter)
+
+
+
+
+
+groups = [["Jobs", "Gates"], ["Newton", "Euclid"], ["Einstein", "Feynman"]]
+
+# This outer loop will iterate over each list in the groups list
+for group in groups:
+  # This inner loop will go through each name in each list
+  for name in group:
+    print(name)
+    groups [0][0] = "Levi"
+    print(groups)
+
+
+
+    # elif Statement
+
+pet_type = "fish"
+
+if pet_type == "dog":
+  print("You have a dog.")
+elif pet_type == "cat":
+  print("You have a cat.")
+elif pet_type == "fish":
+  # this is performed
+  print("You have a fish")
+else:
+  print("Not sure!")
+
+
+x = "".join([" Codecademy  ", " is ", " awesome "])
+
+print(x) 
+# Prints: Codecademy-is-awesome
+
+
+game = "Popular Nintendo Game: Mario Kart"
+
+print("l" in game) 
+print("x" in game) 
+
+import datetime
+from random import random
+now = datetime.datetime.now()
+print("Current date and time:", now)
+
+
+
+
+reapers_line_one_words = ["Black", "reapers", "with", "the", "sound", "of", "steel", "on", "stones"]
+
+reapers_line_one = '/n'.join(reapers_line_one_words)
+print(' '.join(reapers_line_one_words))
