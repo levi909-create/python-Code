@@ -1,5 +1,5 @@
 
-# Copilot Instructions for python-Code Repository
+# Instructions for python-Code Repository
 
 This repository contains a collection of Python learning projects and code demonstrations. Follow these guidelines when working with this codebase.
 
