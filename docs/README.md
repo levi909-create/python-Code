@@ -6,7 +6,7 @@ Welcome to the Python Code Collection documentation! This directory contains com
 
 1. [Getting Started](getting_started.md) - Installation and quick start guide
 2. [API Reference](api_reference.md) - Detailed function and module documentation
-3. [Examples Guide](examples_guide.md) - Comprehensive examples and use cases
+3. [Examples Guide](../examples/README.md) - Comprehensive examples and use cases
 4. [Development Guide](development_guide.md) - Contributing and development setup
 
 ## 📦 Modules Overview
