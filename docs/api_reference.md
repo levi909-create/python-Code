@@ -497,4 +497,4 @@ While the current version uses docstring type annotations, future versions may i
 
 ---
 
-**For more examples and usage patterns, see the [Examples Guide](examples_guide.md).**
+**For more examples and usage patterns, see the [Examples Guide](../examples/README.md).**
