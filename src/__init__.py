@@ -15,4 +15,4 @@ from . import poets
 from . import codes_for_fun
 from . import random_range
 
-__all__ = ['poets', 'codes_for_fun', 'random_range']
+__all__ = ["poets", "codes_for_fun", "random_range"]
