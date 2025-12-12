@@ -320,8 +320,6 @@ def main():
     print("=" * 70)
 
     # BMI Calculation Demo
-
-    # BMI Calculation Demo
     print("\n" + "-" * 70)
     print("BMI CALCULATION")
     print("-" * 70)

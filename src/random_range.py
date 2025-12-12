@@ -11,6 +11,7 @@ This module provides functionality to:
 import random
 
 # Try to import matplotlib, but provide fallback if not available
+# Note: codecademylib3_seaborn is optional and only used in Codecademy environment
 try:
     import codecademylib3_seaborn  # noqa: F401
 

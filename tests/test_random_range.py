@@ -121,7 +121,7 @@ class TestPlotDataIntegration:
         # Should not raise exception (may not display if matplotlib unavailable)
         try:
             random_range.plot_data(x_values, y_values, "line")
-        except Exception as e:
+        except (ImportError, ModuleNotFoundError) as e:
             # If matplotlib is not available, this is acceptable
             if "matplotlib" not in str(e).lower():
                 raise
@@ -133,7 +133,7 @@ class TestPlotDataIntegration:
 
         try:
             random_range.plot_data(x_values, y_values, "bar")
-        except Exception as e:
+        except (ImportError, ModuleNotFoundError) as e:
             if "matplotlib" not in str(e).lower():
                 raise
 
@@ -144,6 +144,6 @@ class TestPlotDataIntegration:
 
         try:
             random_range.plot_data(x_values, y_values, "scatter")
-        except Exception as e:
+        except (ImportError, ModuleNotFoundError) as e:
             if "matplotlib" not in str(e).lower():
                 raise
