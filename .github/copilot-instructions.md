@@ -8,7 +8,7 @@ This is a personal Python repository tracking progress with various Python conce
 - Mathematical operations and algorithms
 - String manipulation and processing
 - Data visualization with matplotlib
-- Poetry data management and analysis
+- Poetry data parsing and search functionality
 - Random number generation utilities
 
 ## Code Style and Conventions
