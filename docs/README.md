@@ -71,4 +71,4 @@ See our [Contributing Guidelines](../CONTRIBUTING.md) for more details.
 
 ---
 
-**Last Updated:** December 2024
+**Last Updated:** December 2025
